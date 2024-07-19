@@ -5,7 +5,31 @@ Start-Sleep -Seconds 10
 # Define the list of blacklisted executables
 $blacklistedExecutables = @(
     '[Insufficient Permissions]',
-    'dwm.exe'
+    'dwm.exe',
+    'explorer.exe',
+    'ctfmon.exe',
+    'spoolsv.exe',
+    'taskhostw.exe',
+    'perfmon.exe',
+    'wuauserv.exe',
+    'dfrgui.exe',
+    'svchost.exe',
+    'regsvr32.exe',
+    'lsass.exe',
+    'wininit.exe',
+    'services.exe',
+    'smss.exe',
+    'System',
+    'System Idle Process',
+    'dllhost.exe',
+    'ntoskrnl.exe',
+    'winlogon.exe',
+    'rundll32.exe',
+    'conhost.exe',
+    'msmpeng.exe',
+    'taskmgr.exe',
+    'searchindexer.exe',
+    'vssvc.exe'
 )
 
 # Function to get the list of NVIDIA GPUs and their IDs
